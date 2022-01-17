@@ -1338,10 +1338,10 @@ type NodeHealthcheck struct {
 				DateEndMaster   *string `json:"date_end_master,omitempty"`
 				DateStartMaster *string `json:"date_start_master,omitempty"`
 				TotalFiles      *struct {
-					Extra      *int32  `json:"extra,omitempty"`
-					ExtraValid *int32  `json:"extra_valid,omitempty"`
-					Missing    *int32  `json:"missing,omitempty"`
-					Shared     *bool `json:"shared,omitempty"`
+					Extra      *int32 `json:"extra,omitempty"`
+					ExtraValid *int32 `json:"extra_valid,omitempty"`
+					Missing    *int32 `json:"missing,omitempty"`
+					Shared     *bool  `json:"shared,omitempty"`
 				} `json:"total_files,omitempty"`
 			} `json:"last_sync_integrity,omitempty"`
 			SyncAgentinfoFree  *bool `json:"sync_agentinfo_free,omitempty"`
@@ -3172,7 +3172,7 @@ type AgentControllerAddAgentJSONBody struct {
 	Ip *string `json:"ip,omitempty"`
 
 	// Agent name
-	Name string `json:"name"`
+	Name string `json:"agent_name"`
 }
 
 // AgentControllerAddAgentParams defines parameters for AgentControllerAddAgent.
