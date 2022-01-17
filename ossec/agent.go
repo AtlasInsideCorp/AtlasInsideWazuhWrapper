@@ -23,7 +23,7 @@ import (
 	"go.uber.org/ratelimit"
 	"go.uber.org/zap"
 
-	"github.com/autonubil/go-wazuh/sysinfo"
+	"github.com/AtlasInsideCorp/AtlasInsideWazuhWrapper/sysinfo"
 	"github.com/joncrlsn/dque"
 	"github.com/matishsiao/goInfo"
 )

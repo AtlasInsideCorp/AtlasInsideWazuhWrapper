@@ -1,4 +1,4 @@
-module github.com/autonubil/go-wazuh
+module github.com/AtlasInsideCorp/AtlasInsideWazuhWrapper
 
 require (
 	github.com/4kills/go-zlib v1.1.0
